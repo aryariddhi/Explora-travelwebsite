@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.banner-area {
+	width: 100%;
+	height: 400px;
+	position: fixed;
+	top: 100px;
+	background-image: url(images/travel.gif);
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h3 {
+	padding-top: 8%;
+	font-size: 30px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position:relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 600px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+.search label{
+	line-height: 100px;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: poppins;
+	color: black;
+	letter-spacing: 2px;
+}
+.indimage{
+    width: 100%;
+	height: 600px;
+	position: fixed;
+	background-image: url(images/8%20Beautiful%20Illustration%20Projects%20For%20Design%20Inspiration.png);
+	background-size: cover;
+	background-position: center center;
+}
+.indimage h3{padding-top: 8%;
+	font-size: 60px;
+	font-family: 'Rozha One', serif;
+	color: black;
+    
+}
+.area1 {
+	width: 100%;
+	position:relative;
+	top: 600px;
+	background: #ebebeb;
+	height: 1000px;
+}
+.area1 h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 20px;
+	margin: 0;
+}
+.area1 h3{
+float: left;
+margin-left: 150;
+margin-top:70
+}
+article.content{
+    float: left;
+    font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin-bottom: 20;
+    margin-right: 800;
+    margin-left: 100;
+}
+article.taj{
+    margin-top: -380px;
+    margin-right: 120;
+    float: right
+}
